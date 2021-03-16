@@ -1,0 +1,40 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--secondary-dark-bgc);
+}
+
+.map-link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-white-color);
+  text-decoration: none;
+  transition: color var(--transition-time) var(--time-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-left {
+  margin-right: 70px;
+}
+
+.footer-right-text {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
